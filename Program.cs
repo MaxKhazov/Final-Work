@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+Console.WriteLine("Введите любые символы, чтобы заполнить массив.");
+Console.WriteLine("Элемент массива 1/4:");
+string? Element1 = Console.ReadLine();
+Console.WriteLine("Элемент массива 2/4:");
+string? Element2 = Console.ReadLine();
+Console.WriteLine("Элемент массива 3/4:");
+string? Element3 = Console.ReadLine();
+Console.WriteLine("Элемент массива 4/4:");
+string? Element4 = Console.ReadLine();
+
+string?[] StringArray = new string?[] {Element1, Element2, Element3, Element4};
+
+
+
