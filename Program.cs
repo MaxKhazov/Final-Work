@@ -11,7 +11,8 @@ Console.WriteLine("Элемент массива 4/4:");
 string? Element4 = Console.ReadLine();
 
 string?[] StringArray = new string?[] { Element1, Element2, Element3, Element4 };
-
+Console.Write("Новый массив из строк, в которых 3, либо меньше символов: ");
+CreateNewArray(StringArray);
 
 
 void CreateNewArray(string?[] arr)
